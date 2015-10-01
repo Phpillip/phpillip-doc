@@ -1,0 +1,59 @@
+body {
+    font-size: 18px;
+    background-color: #fefefe;
+}
+
+.content {
+    width: 100 - $side-bar-width;
+    float: right;
+
+    h1, h2, h3, h4, h5 {
+        padding-bottom: $gutter/2;
+        margin: ($gutter * 2) 0 $gutter;
+        border-bottom: 1px solid $gray-lighter;
+    }
+}
+
+.side-bar {
+    width: $side-bar-width;
+    float: left;
+
+    .logo {
+        display: block;
+        margin-top: $gutter * 2;
+        margin-bottom: $gutter;
+        font-size: 2em;
+        color: $gray-dark;
+
+        img {
+            width: 200px;
+        }
+    }
+
+    .menu {
+        font-size: 0.9em;
+
+        .title {
+            font-weight: bold;
+            color: #555555;
+            margin-top: $gutter;
+            font-size: 1em;
+        }
+
+        .category a {
+            padding: $gutter/4 $gutter/2;
+        }
+    }
+}
+
+.footer {
+    border-top: 1px solid $gray-lighter;
+    margin-top: $gutter;
+    padding: $gutter;
+
+    .back-to-top {
+        text-align: right;
+        width: 100%;
+        display: block;
+    }
+}

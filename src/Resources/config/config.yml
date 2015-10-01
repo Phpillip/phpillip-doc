@@ -1,0 +1,15 @@
+# Commands
+commands:
+- Command\ImportDocCommand
+
+# Default controllers
+default_controllers: false
+
+# Poviders:
+parsedown_class: Service\Parsedown
+
+# App parameters
+parameters:
+    meta:
+        author: Thomas Jarrand
+        description: Phpillip documentation

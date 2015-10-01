@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% block meta %}
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+            <title>{% block meta_title title|default('Phpillip') %}</title>
+
+            <meta name="author" content="{{ parameters.meta.author }}">
+            <meta name="description" content="{% block meta_description description|default(parameters.meta.description) %}">
+            <link rel="canonical" href="{{ canonical }}">
+        {% endblock %}
+
+        {% block stylesheet %}
+            <link rel="stylesheet" href="/css/style.css">
+        {% endblock %}
+
+        {% block javascript %}
+        {% endblock %}
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+    </body>
+</html>

@@ -1,0 +1,18 @@
+{% block menu %}
+{% for category, docs in categories %}
+<h5 class="title">
+    {{ category|upper }}
+</h5>
+<ul class="category nav nav-pills nav-stacked">
+    {% for doc in docs %}
+        {% set url = path('doc', {doc: doc.slug}) %}
+        {% set current = app.request_stack.masterRequest.pathInfo == url %}
+        <li class="nav-item">
+            <a class="nav-link {{ current ? 'active' : '' }}" href="{{ path('doc', {doc: doc.slug}) }}">
+                {{ doc.title|default(doc.slug) }}
+            </a>
+        </li>
+    {% endfor %}
+</ul>
+{% endfor %}
+{% endblock %}

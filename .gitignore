@@ -1,0 +1,13 @@
+# Composer
+/vendor/
+
+# Npm
+/node_modules/
+
+# Phpillip
+/bin/
+/dist/
+
+# Doc
+/src/Resources/public/css
+/src/Resources/data
