@@ -51,12 +51,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Phpillip/phpillip.git",
-                "reference": "c792b121288a78e927d3e39da0bdb6979ae5294b"
+                "reference": "0682d3b1d19bcc825d059b50d7c632e0ba94ad73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Phpillip/phpillip/zipball/c792b121288a78e927d3e39da0bdb6979ae5294b",
-                "reference": "c792b121288a78e927d3e39da0bdb6979ae5294b",
+                "url": "https://api.github.com/repos/Phpillip/phpillip/zipball/0682d3b1d19bcc825d059b50d7c632e0ba94ad73",
+                "reference": "0682d3b1d19bcc825d059b50d7c632e0ba94ad73",
                 "shasum": ""
             },
             "require": {
@@ -100,7 +100,7 @@
             ],
             "description": "PHP Static Site Generator",
             "homepage": "http://phpillip.github.io/",
-            "time": "2015-10-05 20:21:42"
+            "time": "2015-10-05 21:04:00"
         },
         {
             "name": "pimple/pimple",

@@ -1,5 +1,7 @@
 {% extends 'layout.html.twig' %}
 
+{% set title = doc.title ~ ' | Phpillip' %}
+
 {% block content %}
     {{ doc.content|raw }}
 {% endblock %}
