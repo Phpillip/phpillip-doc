@@ -13,3 +13,5 @@ parameters:
     meta:
         author: Thomas Jarrand
         description: Phpillip documentation
+
+    analytics: UA-7324372-8
