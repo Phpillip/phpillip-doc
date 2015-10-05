@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "erusev/parsedown",
-            "version": "1.5.4",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "0e89e3714bda18973184d30646306bb0a482bd96"
+                "reference": "3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/0e89e3714bda18973184d30646306bb0a482bd96",
-                "reference": "0e89e3714bda18973184d30646306bb0a482bd96",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7",
+                "reference": "3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7",
                 "shasum": ""
             },
             "type": "library",
@@ -43,20 +43,20 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2015-08-03 09:24:05"
+            "time": "2015-10-04 16:44:32"
         },
         {
             "name": "phpillip/phpillip",
-            "version": "v1.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Phpillip/phpillip.git",
-                "reference": "ac38c08a2d9696a77d04f050609b3bef909c6d07"
+                "reference": "c792b121288a78e927d3e39da0bdb6979ae5294b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Phpillip/phpillip/zipball/ac38c08a2d9696a77d04f050609b3bef909c6d07",
-                "reference": "ac38c08a2d9696a77d04f050609b3bef909c6d07",
+                "url": "https://api.github.com/repos/Phpillip/phpillip/zipball/c792b121288a78e927d3e39da0bdb6979ae5294b",
+                "reference": "c792b121288a78e927d3e39da0bdb6979ae5294b",
                 "shasum": ""
             },
             "require": {
@@ -100,7 +100,7 @@
             ],
             "description": "PHP Static Site Generator",
             "homepage": "http://phpillip.github.io/",
-            "time": "2015-10-01 20:55:47"
+            "time": "2015-10-05 20:21:42"
         },
         {
             "name": "pimple/pimple",
