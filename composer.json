@@ -9,7 +9,7 @@
     },
     "require": {
         "php": ">=5.6",
-        "phpillip/phpillip": "~1.0"
+        "phpillip/phpillip": "dev-master"
     },
     "extra": {
         "branch-alias": {

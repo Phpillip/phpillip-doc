@@ -6,10 +6,15 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-            <title>{% block meta_title title|default('Phpillip') %}</title>
+            {% set title = title|default('Phpillip') %}
+            {% set description = description|default(parameters.meta.description) %}
 
+            <title>{% block meta_title title|default('Phpillip') %}</title>
+            <meta name="description" content="{{ description }}">
             <meta name="author" content="{{ parameters.meta.author }}">
-            <meta name="description" content="{% block meta_description description|default(parameters.meta.description) %}">
+
+            {{ include('twitter.html.twig') }}
+
             <link rel="canonical" href="{{ canonical }}">
         {% endblock %}
 

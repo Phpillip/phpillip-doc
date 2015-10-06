@@ -1,0 +1,8 @@
+{% block twitter %}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="{{ canonical }}">
+    <meta name="twitter:site" content="{{ parameters.twitter.site }}">
+    <meta name="twitter:title" content="{{ parameters.twitter.title }}">
+    <meta name="twitter:description" content="{{ parameters.twitter.description }}">
+    <meta property="twitter:image" content="{{ url('homepage') }}{{ parameters.twitter.image }}">
+{% endblock %}

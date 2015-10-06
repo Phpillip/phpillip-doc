@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "318956b7426207747274c90dedc1d6f7",
+    "hash": "6eb7f6ff66d6f238f9855e0683d9e54a",
     "packages": [
         {
             "name": "erusev/parsedown",
@@ -47,16 +47,16 @@
         },
         {
             "name": "phpillip/phpillip",
-            "version": "v1.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Phpillip/phpillip.git",
-                "reference": "0682d3b1d19bcc825d059b50d7c632e0ba94ad73"
+                "reference": "cd385957463c87d9bdfdd055dbc68c1886ba821d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Phpillip/phpillip/zipball/0682d3b1d19bcc825d059b50d7c632e0ba94ad73",
-                "reference": "0682d3b1d19bcc825d059b50d7c632e0ba94ad73",
+                "url": "https://api.github.com/repos/Phpillip/phpillip/zipball/cd385957463c87d9bdfdd055dbc68c1886ba821d",
+                "reference": "cd385957463c87d9bdfdd055dbc68c1886ba821d",
                 "shasum": ""
             },
             "require": {
@@ -100,7 +100,7 @@
             ],
             "description": "PHP Static Site Generator",
             "homepage": "http://phpillip.github.io/",
-            "time": "2015-10-05 21:04:00"
+            "time": "2015-10-06 06:20:30"
         },
         {
             "name": "pimple/pimple",
@@ -1088,7 +1088,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "phpillip/phpillip": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

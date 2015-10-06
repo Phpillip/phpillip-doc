@@ -15,3 +15,9 @@ parameters:
         description: Phpillip documentation
 
     analytics: UA-7324372-8
+
+    twitter:
+        title: Phpillip
+        description: "Phpillip: A static website generator for #Symfony developers"
+        site: @tom32i
+        image: phpillip.png
