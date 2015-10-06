@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "hash": "6eb7f6ff66d6f238f9855e0683d9e54a",
+    "content-hash": "9372d08020d86b23fcc96fcaa93b5999",
     "packages": [
         {
             "name": "erusev/parsedown",
@@ -51,12 +52,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Phpillip/phpillip.git",
-                "reference": "cd385957463c87d9bdfdd055dbc68c1886ba821d"
+                "reference": "f6b603a6138aec3af407a243ef7464dd8883d387"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Phpillip/phpillip/zipball/cd385957463c87d9bdfdd055dbc68c1886ba821d",
-                "reference": "cd385957463c87d9bdfdd055dbc68c1886ba821d",
+                "url": "https://api.github.com/repos/Phpillip/phpillip/zipball/f6b603a6138aec3af407a243ef7464dd8883d387",
+                "reference": "f6b603a6138aec3af407a243ef7464dd8883d387",
                 "shasum": ""
             },
             "require": {
@@ -100,7 +101,7 @@
             ],
             "description": "PHP Static Site Generator",
             "homepage": "http://phpillip.github.io/",
-            "time": "2015-10-06 06:20:30"
+            "time": "2015-10-06 11:02:34"
         },
         {
             "name": "pimple/pimple",
