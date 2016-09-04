@@ -7,6 +7,6 @@ install:
 
 # Build the project
 build:
-	gulp
+	npm run build
 	bin/console phpillip:doc:import
 	bin/console phpillip:build phpillip.github.io

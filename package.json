@@ -7,6 +7,10 @@
     "url": "http://thomas.jarrand.fr"
   },
   "license": "MIT",
+  "scripts": {
+    "build": "gulp",
+    "start": "gulp watch"
+  },
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",
@@ -15,6 +19,6 @@
     "gulp-sass": "^2.0.4"
   },
   "dependencies": {
-    "bootstrap": "^3.3.5"
+    "bootstrap": "^4.0.0-alpha.3"
   }
 }
