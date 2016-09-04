@@ -7,6 +7,7 @@ Phpillip is generating [its own documentation](http://phpillip.github.io/)!
 - PHP `>= 5.6`
 - NodeJs `>= 0.10`
 - [Pygments](http://pygments.org/)
+- Make (optional)
 
 ## Installation
 
@@ -18,6 +19,9 @@ Or mannually:
 
     composer install
     npm install
+
+    composer update phpillip/phpillip
+    bin/console phpillip:doc:import
 
 ## Build the documentation
 
@@ -33,5 +37,4 @@ __Building assets:__
 
 __Building website:__
 
-    bin/console phpillip:doc:import
     bin/console phpillip:build phpillip.github.io
