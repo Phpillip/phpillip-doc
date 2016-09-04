@@ -27,8 +27,11 @@ class Parsedown extends BaseParsedown
     {
         $data = parent::inlineLink($Excerpt);
 
-        if (preg_match('#^(doc|\.{2})/(.+)/(.+).md#i', $data['element']['attributes']['href'], $matches)) {
-            $data['element']['attributes']['href'] = sprintf('/%s-%s', $matches[2], $matches[3]);
+        if (preg_match('#^(doc|\.{2})/(.+)/(.+).md(\#.+)?#i', $data['element']['attributes']['href'], $matches)) {
+            $directory = $matches[2];
+            $file      = $matches[3];
+            $anchor    = isset($matches[4]) ? $matches[4] : null;
+            $data['element']['attributes']['href'] = sprintf('/%s-%s%s', $directory, $file, $anchor);
         }
 
         return $data;
