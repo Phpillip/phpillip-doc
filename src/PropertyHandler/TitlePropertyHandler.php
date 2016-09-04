@@ -30,7 +30,7 @@ class TitlePropertyHandler implements PropertyHandlerInterface
      */
     public function handle($value, array $context)
     {
-        if (preg_match('#^<h1>(.+)</h1>#i', $context['data']['content'], $matches)) {
+        if (preg_match('#^<h1[^>]*>(.+)</h1>#i', $context['data']['content'], $matches)) {
             return $matches[1];
         }
 
